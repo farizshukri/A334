@@ -14,3 +14,4 @@ These programs need testing to ensure they're updated and can be properly execut
 - Restaurant menu
 - ChatBot
 - School management system
+- Color picker
