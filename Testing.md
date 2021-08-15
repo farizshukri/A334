@@ -1,4 +1,4 @@
 ---
 title: "Program Test"
-output: 
+output: html_document
 ---
