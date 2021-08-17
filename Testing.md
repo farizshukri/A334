@@ -1,5 +1,5 @@
 ---
 title: "Program Test"
 output: html_document
-bibliography:
+bibliography: rmarkdown.bib
 ---
