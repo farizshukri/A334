@@ -9,3 +9,4 @@ Testings conducted
 - Functional Testing
 - User Interface UI Testing
 - Performance Testing
+- Compatibility Testing
