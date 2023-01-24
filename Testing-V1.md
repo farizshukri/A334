@@ -10,3 +10,4 @@ Testings conducted
 - User Interface UI Testing
 - Performance Testing
 - Compatibility Testing
+- Security Testing
