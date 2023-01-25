@@ -11,3 +11,4 @@ Testings conducted
 - Performance Testing
 - Compatibility Testing
 - Security Testing
+- Usabillity Testing
