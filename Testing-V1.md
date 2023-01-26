@@ -12,3 +12,4 @@ Testings conducted
 - Compatibility Testing
 - Security Testing
 - Usabillity Testing
+- Integration Testing
