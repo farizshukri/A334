@@ -13,3 +13,4 @@ Testings conducted
 - Security Testing
 - Usabillity Testing
 - Integration Testing
+- Edge Case and Stress Testing
