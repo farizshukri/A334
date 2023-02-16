@@ -15,3 +15,4 @@ Testings conducted
 - Integration Testing
 - Edge Case and Stress Testing
 - Data Integrity Testing
+- Localization and Internalization Testing
