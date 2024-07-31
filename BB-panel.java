@@ -57,5 +57,12 @@ public class BrickBreakerPanel extends JPanel implements ActionListener {
         timer.start();
     }
 
-    
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        ball.move();
+        checkCollision();
+        repaint();
+    }
+
+   
 }
