@@ -52,5 +52,10 @@ public class BrickBreakerPanel extends JPanel implements ActionListener {
         }
     }
 
+    public void startGame() {
+        timer = new Timer(10, this);
+        timer.start();
+    }
+
     
 }
