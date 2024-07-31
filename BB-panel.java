@@ -65,7 +65,23 @@ public class BrickBreakerPanel extends JPanel implements ActionListener {
     }
 
     private void checkCollision() {
-       
+        if (ball.getBounds().intersects(paddle.getBounds())) {
+            ball.reverseYDirection();
+        }
+
+        for (int i = bricks.size() - 1; i >= 0; i--) {
+            Brick brick = bricks.get(i);
+            if (ball.getBounds().intersects(brick.getBounds())) {
+                ball.reverseYDirection();
+                bricks.remove(i);
+                score++;
+                break;
+            }
+        }
+
+        if (ball.getY() > getHeight()) {
+            timer.stop();
+        }
     }
 
    
