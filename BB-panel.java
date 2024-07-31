@@ -8,3 +8,10 @@ import java.awt.event.KeyEvent;
 import javax.swing.Timer;
 import java.util.ArrayList;
 import java.util.List;
+
+public class BrickBreakerPanel extends JPanel implements ActionListener {
+    private Timer timer;
+    private Ball ball;
+    private Paddle paddle;
+    private List<Brick> bricks;
+    private int score;
