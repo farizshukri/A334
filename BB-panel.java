@@ -42,5 +42,15 @@ public class BrickBreakerPanel extends JPanel implements ActionListener {
         score = 0;
     }
 
+    private void createBricks() {
+        int brickWidth = 75;
+        int brickHeight = 20;
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 5; j++) {
+                bricks.add(new Brick(100 + i * (brickWidth + 10), 50 + j * (brickHeight + 10), brickWidth, brickHeight));
+            }
+        }
+    }
+
     
 }
