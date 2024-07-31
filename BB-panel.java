@@ -15,3 +15,21 @@ public class BrickBreakerPanel extends JPanel implements ActionListener {
     private Paddle paddle;
     private List<Brick> bricks;
     private int score;
+
+    public BrickBreakerPanel() {
+        setFocusable(true);
+        setBackground(Color.BLACK);
+        setDoubleBuffered(true);
+        addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                paddle.keyPressed(e);
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+                paddle.keyReleased(e);
+            }
+        });
+        initGame();
+    }
