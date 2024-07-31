@@ -84,5 +84,21 @@ public class BrickBreakerPanel extends JPanel implements ActionListener {
         }
     }
 
-   
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        g.setColor(Color.RED);
+        for (Brick brick : bricks) {
+            g.fillRect(brick.getX(), brick.getY(), brick.getWidth(), brick.getHeight());
+        }
+
+        g.setColor(Color.GREEN);
+        g.fillRect(paddle.getX(), paddle.getY(), paddle.getWidth(), paddle.getHeight());
+
+        g.setColor(Color.WHITE);
+        g.fillOval(ball.getX(), ball.getY(), ball.getDiameter(), ball.getDiameter());
+
+        g.drawString("Score: " + score, 10, 20);
+    }
 }
