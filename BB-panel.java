@@ -34,5 +34,13 @@ public class BrickBreakerPanel extends JPanel implements ActionListener {
         initGame();
     }
 
+    private void initGame() {
+        ball = new Ball(400, 300, -2, -3);
+        paddle = new Paddle(350, 550);
+        bricks = new ArrayList<>();
+        createBricks();
+        score = 0;
+    }
+
     
 }
