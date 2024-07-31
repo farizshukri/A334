@@ -64,5 +64,9 @@ public class BrickBreakerPanel extends JPanel implements ActionListener {
         repaint();
     }
 
+    private void checkCollision() {
+       
+    }
+
    
 }
