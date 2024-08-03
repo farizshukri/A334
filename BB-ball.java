@@ -13,5 +13,18 @@ public class Ball {
         this.yDirection = yDirection;
     }
 
+    public void move() {
+        x += xDirection;
+        y += yDirection;
+
+        if (x <= 0 || x >= 800 - diameter) {
+            xDirection = -xDirection;
+        }
+
+        if (y <= 0) {
+            yDirection = -yDirection;
+        }
+    }
+
    
 }
