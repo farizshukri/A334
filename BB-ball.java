@@ -30,5 +30,9 @@ public class Ball {
         yDirection = -yDirection;
     }
 
+    public int getX() {
+        return x;
+    }
+
    
 }
