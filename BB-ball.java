@@ -38,5 +38,9 @@ public class Ball {
         return y;
     }
 
+    public int getDiameter() {
+        return diameter;
+    }
+
     
 }
