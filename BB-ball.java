@@ -34,5 +34,9 @@ public class Ball {
         return x;
     }
 
-   
+    public int getY() {
+        return y;
+    }
+
+    
 }
