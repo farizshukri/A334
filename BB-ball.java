@@ -26,5 +26,9 @@ public class Ball {
         }
     }
 
+    public void reverseYDirection() {
+        yDirection = -yDirection;
+    }
+
    
 }
