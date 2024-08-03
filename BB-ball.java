@@ -42,5 +42,7 @@ public class Ball {
         return diameter;
     }
 
-    
+    public Rectangle getBounds() {
+        return new Rectangle(x, y, diameter, diameter);
+    }
 }
